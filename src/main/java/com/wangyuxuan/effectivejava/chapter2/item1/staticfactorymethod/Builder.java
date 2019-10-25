@@ -11,9 +11,9 @@ public class Builder {
 
     private Integer num1;
 
-    private static final Builder builder = new Builder();
+    private static final Builder INSTANCE = new Builder();
 
-    public Builder() {
+    private Builder() {
     }
 
     public Builder(String str1, Integer num1) {
@@ -35,7 +35,7 @@ public class Builder {
     }
 
     public static Builder valueOf() {
-        return builder;
+        return INSTANCE;
     }
 
     public static void main(String[] args) {
