@@ -1,4 +1,4 @@
-package com.wangyuxuan.effectivejava.chapter2.item2.staticfactorymethod;
+package com.wangyuxuan.effectivejava.chapter2.item1.staticfactorymethod;
 
 /**
  * @author wangyuxuan
